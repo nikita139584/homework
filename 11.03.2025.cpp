@@ -1,101 +1,103 @@
-using namespace std;
 #include <iostream>
-
-int main(){
-	1;
-	//cout << "Print hrivna: ";
-	//int hrivna;
-	//cin >> hrivna;
-	//cout << "dollar" << hrivna * 0.022 << "\n";
-	//cout << "euro" << hrivna * 0.024 << "\n";
-	//cout << "bitcoin" << hrivna * 0.0000002815 << "\n";
+using namespace std;
+int main()
+{
 	2;
-	//cout << "Print killometr: ";
-	//int killometr;
-	//cin >> killometr;
-	//cout << "dollar" << killometr * 0.539957 << "\n";
-	//cout << "euro" << killometr * 0.621371 << "\n";
+	//	cout << "print one number";
+	//	int numb1;
+	//	cin >> numb1;
+	//if (numb1 > 9) {
+	//	cout << "numb don`t fit";
+	//}
+
+	//cout << "print one number";
+	//int numb2;
+	//cin >> numb2;
+	//if (numb1 > 9) {
+	//	cout << "numb don`t fit";
+	//}
+
+	//cout << "print one number";
+	//int numb3;
+	//cin >> numb3;
+	//if (numb1 > 9) {
+	//	cout << "numb don`t fit";
+	//}
+
+	//cout << "print one number";
+	//int numb4;
+	//cin >> numb4;
+	//if (numb1 > 9) {
+	//	cout << "numb don`t fit";
+	//}
+
+	//cout << "print one number";
+	//int numb5;
+	//cin >> numb5;
+	//if (numb1 > 9) {
+	//	cout << "numb don`t fit";
+	//}
+
+	//cout << "print one number";
+	//int numb6;
+	//cin >> numb6;
+	//if (numb1 > 9) {
+	//	cout << "numb don`t fit";
+	//}
+
+	//cout << "your numb:" << numb1 << numb2  << numb3 << numb4 << numb5 << numb6;
+	//if (numb1 + numb2 + numb3 == numb4 + numb5 + numb6)
+	//	cout << " Your numb lucky (:";
+	//else
+	//{
+	//	cout << " Your numb don`t lucky ):";
+	//}
 	3;
-	//cout << "Print a: ";
-	//int a;
-	//cin >> a;
-	//cout << "Print b: ";
-	//int b;
-	//cin >> b;
-	//cout << "a:" << b <<  "\n";
-	//cout << "b:" << a <<  "\n";
+	//cout << "print first number:\n";
+	//double number1;
+	//cin >> number1;
+	//cout << "print second number\n";
+	//double number2;
+	//cin >> number2;
+	//cout << " select the sign 1 to +; 2 to -; 3 to *; 4 to /:\n";
+	//string sign;
+	//cin >> sign;
+	//if (sign == "1")
+	//	cout << number1 + number2;
+	//if (sign == "2")
+	//	cout << number1 - number2;
+	//if (sign == "3")
+	//	cout << number1 * number2;
+	//if (sign == "4" )
+	//	cout << number1 / number2;
+	//if (sign == "4" && number2 == 0)
+	//	cout << "You can't divide by zero.\n";
 	4;
-	//cout << "Print number: ";
-	//string a;
-	//cin >> a;
-	//cout << "Print number: ";
-	//string b;
-	//cin >> b;
-	//cout << "Print number: ";
-	//string c;
-	//cin >> c;
-	//cout << "Print number: ";
-	//string d;
-	//cin >> d;
-	//cout << "Print number: ";
-	//string e;
-	//cin >> e;
-	//cout << "Print number: ";
-	//string f;
-	//cin >> f;
-	//cout << a + b + c << "your number \n";
-	//cout << d + e + f << "your number \n";
-	//cout << a + e + c << "Your number with the center inverted \n";
-	//cout << d + b + f << "Your number with the center inverted \n";
+	//int pin;
+	//cout << "Please, enter PIN-code: ";
+	//cin >> pin;
+
+	//if (pin < 101 &&  pin >  0)
+	//{
+	//	cout << "Your number fit \n";
+	//}
+	//else
+	//{
+	//	cout << "Your number don`t fit\n";
+	//	main();
+	//}
+	//srand(time(0)); // seed random number generator
+	//rand(); // get rid of first random number
+
+	//cout << rand() % 100; // random number between 0 and 99
+	//int x = rand() % 10; // 0 - 9
 	5;
-	//cout << "Print number:\n";
-	//int a;
-	//cin >> a;
-	//cout << "Print number: \n";
-	//int b;
-	//cin >> b;
-	//cout << "Print number: \n";
-	//int c;
-	//cin >> c;
-	//cout << "Print number: \n";
-	//int d;
-	//cin >> d;
-	//cout << a + b + c + d;
-	//cout << a + c << " your number \n";
-	//cout << b - d << " your inverted number \n";
-	6;
-	//cout << "Print number: ";
-	//string a;
-	//cin >> a;
-	//cout << "Print number: ";
-	//string b;
-	//cin >> b;
-	//cout << "Print number: ";
-	//string c;
-	//cin >> c;
-	//cout << a + b + c << " your number \n";
-	//cout << a + c << " your number without central digit\n";
-	8;
-	/*cout << "Print kiligram:\n";
-	double poundy;
-	cin >> poundy;
-	cout << poundy * 0.4059;
-	cout << "Print poundy:\n";
-	double kiligram;
-	cin >> kiligram;
-	cout << kiligram * 0.00220462;*/
-	9;
-	//cout << "Print number: ";
-	//string a;
-	//cin >> a;
-	//cout << "Print number: ";
-	//string b;
-	//cin >> b;
-	//cout << "Print number: ";
-	//string c;
-	//cin >> c;
-	//cout << "Print number: ";
-	//cout << a + b + c << "your number \n";
-	//cout << c + b + a << "Your number with the center inverted \n";
-	}
+	//cout << "print number from zero to one";
+	//double number;
+	//cin >> number;
+	//if (number > 0 && number < 1)
+	//	cout << "This number is fractional";
+}
+
+
 
