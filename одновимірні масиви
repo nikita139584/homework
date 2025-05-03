@@ -1,0 +1,77 @@
+//1
+//#include <iostream>
+//#include <cstdlib> 
+//using namespace std;
+//int main() {
+//    int sum = 0;
+//    srand(time(0));
+//    const int SIZE = 20;
+//    int numbers[SIZE];
+//    int numb = 0;
+//    for (int& element : numbers) {
+//        element = rand() % 41 - 20;
+//        cout << element << ", ";
+//        sum += element;
+//    }
+//
+//    cout << sum<<"\n";
+//    cout << sum/20<< "\n";
+//}
+//2
+//#include <iostream>
+//#include <cstdlib> 
+//using namespace std;
+//int main() {
+//    int czislo;
+//    cout << "print numb:";
+//    cin >> czislo;
+//
+//    srand(time(0));
+//    const int SIZE = 100;
+//    int numbers[SIZE];
+//    int numb = 0;
+//    for (int& element : numbers) {
+//        element = rand() % 20;
+//        cout << element << ", ";
+       /* if (element == czislo) {
+            numb++; 
+        }
+    }
+    cout << "\n";
+    cout << numb << "-sum";
+}*/
+//4
+#include <iostream>
+#include <cstdlib>
+#include <ctime>  
+using namespace std;
+int main() {
+    srand(time(0));
+    const int SIZE = 200;
+    int numbers[SIZE];
+    int numb1 = 0;
+    int numb2 = 0;
+    int numb3 = 0;
+    for (int& element : numbers) {
+        element = rand() % 200;
+        cout << element << ", ";
+
+        if (element >= 0 && element <= 9) {
+            numb1++;
+        }
+        else if (element >= 10 && element <= 99) {
+            numb2++;
+        }
+        else if (element >= 100 && element <= 199) { 
+            numb3++;
+        }
+    }
+
+    cout << "\n";
+    cout << (numb1 * 100.0 / SIZE) << "%\n";
+    cout << (numb2 * 100.0 / SIZE) << "%\n";
+    cout << (numb3 * 100.0 / SIZE) << "%\n";
+}
+
+
+
