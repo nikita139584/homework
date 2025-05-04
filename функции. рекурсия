@@ -1,0 +1,57 @@
+
+//#include <iostream>
+//void srednia() {
+//        int sum = 0;
+//        srand(time(0));
+//        const int SIZE = 20;
+//        int numbers[SIZE];
+//        int numb = 0;
+//        for (int& element : numbers) {
+//            element = rand() % 41 - 20;
+//            cout << element << ", ";
+//            sum += element;
+//        }
+//    
+//        cout << sum<<"\n";
+//        cout << sum/20<< "\n";
+//    }
+//int main() {
+//    srednia();
+//}
+//#include <iostream>
+//#include <algorithm> 
+//#include <ctime>
+//using namespace std;
+//void minmax() {
+//    srand(time(0));
+//    const int SIZE = 20;
+//    int numbers[SIZE];
+//    for (int& element : numbers) {
+//        element = rand() % 20;
+//        cout << element << ", ";
+//    }
+//    int minelement = min_element(numbers, numbers+SIZE);
+//    int maxelement = max_element(numbers, numbers+SIZE);
+//
+//        cout << minelement;
+//        cout << maxelement;
+//}
+//int main() {
+//    minmax      ();
+//}
+#include <iostream>
+using namespace std;
+void naoborot() {
+    int i;
+    cout << "print number";
+    cin >> i;
+    for (; i >= 1; i--) {
+        cout << i << "\n";
+    }
+}
+int main() {
+    naoborot();
+}
+
+
+
